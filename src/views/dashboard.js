@@ -1,11 +1,12 @@
 import React,{Component} from "react";
 import Container from "../../node_modules/react-bootstrap/Container";
+import DashboardS1 from "../components/dashboard-s1";
 
 class Dashboard extends Component{
     render(){
         return(        
-            <Container fluid className="dashboard-s1 d-flex align-items-center minh-100vh">
-                
+            <Container fluid className="minh-footer-adj p-0">
+                <DashboardS1/>
             </Container>    
         );
     }
